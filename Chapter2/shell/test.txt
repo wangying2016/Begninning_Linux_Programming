@@ -1,0 +1,3 @@
+This is a file.
+With text POSIX.
+Just for test.

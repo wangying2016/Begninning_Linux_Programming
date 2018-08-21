@@ -1,0 +1,5 @@
+total 0
+-rw-rw-r-- 1 wangying wangying 0 Aug 16 19:22 lsoutput.txt
+   PID TTY          TIME CMD
+  1206 pts/0    00:00:00 bash
+ 12526 pts/0    00:00:00 ps

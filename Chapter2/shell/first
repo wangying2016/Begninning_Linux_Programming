@@ -5,6 +5,9 @@
 # directory for the string POSIX, and then prints the names of
 # those files to the standard output.
 
+trap 'echo Exiting: critical variable = $critical_variable' EXIT
+
+set -o xtrace
 for file in *
 do
 	if grep -q POSIX $file
@@ -12,5 +15,6 @@ do
 		echo $file
 	fi
 done
+set +o xtrace
 
 exit 0

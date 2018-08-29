@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo the date is $(date)
+set $(date)
+echo The '$0' is $0
+echo The '$#' is $#
+echo The '$@' is $@
+echo The month is $2
+
+exit 0

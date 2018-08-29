@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for image in *.gif
+do
+	cjpeg $image > $(images%%gif)jpg
+done
